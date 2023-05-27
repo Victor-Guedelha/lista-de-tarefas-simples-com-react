@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header *{
+  text-align: center;
+}
+
+header,
+.MuiCardActions-root.MuiCardActions-spacing.css-1t6e9jv-MuiCardActions-root button:first-child{
+  background: #3f5dae !important
+}
+
+thead th{
+  background: #333;
+  color: #fdfdfd !important
+}
+
+thead th:not(:last-child){
+  border-left: 1px solid #fdfdfd
+}
+
+tbody tr:nth-child(odd){
+  background: #3f5dae29
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root::-webkit-scrollbar {
+  width: 3px;
+  height: 8px
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root::-webkit-scrollbar-thumb {
+  background: #3f5dae;
+  border-radius: 20px;
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root::-webkit-scrollbar-track {
+  background-color: #F4F4F4;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedSuccess.MuiButton-sizeMedium.MuiButton-containedSizeMedium.css-ke5b6m-MuiButtonBase-root-MuiButton-root{
+  background: #3f5dae
+}
+
+.MuiCardHeader-content.css-1qbkelo-MuiCardHeader-content{
+  text-align: center
+}
+
+.MuiCardActions-root.MuiCardActions-spacing.css-1t6e9jv-MuiCardActions-root{
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
